@@ -1,0 +1,10 @@
+/static StaticR Static appStatic
+
+/favicon.ico FaviconR GET
+/robots.txt RobotsR GET
+
+/ HomeR GET 
+/p1 PedirPronto GET
+/p2 PedirOriginal GET
+/p3 Sobre GET
+/p4 Finalizar GET
