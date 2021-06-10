@@ -1,0 +1,48 @@
+<body>
+    <header>
+      <ul>
+            <li>
+                <img src="css/logo.png" alt="logo RidricArt" class="logo-menu">
+            <li>
+                <a href=@{HomeR}>
+                    Pagina Inicial
+            <li>
+                <a href="pedirNovo">
+                    Pedir Original
+            <li>
+                <a href="contato">
+                    Fale Conosco
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Nome
+                <th>
+                    E-mail
+                <th>
+                    Celular
+                <th>
+                    Comentário
+                <th>
+
+                <th>
+        <tbody>
+            $forall Entity pid coment <- comentarios
+                <tr>
+                    <td>
+                        #{contactNome coment}
+                    <td>
+                        #{contactEmail coment}
+                    <td>
+                        #{contactCelular coment}
+                    <td>
+                        #{contactMensagem coment}
+                    <td>
+                        <a href=@{EditarComentR pid}>
+                            Editar
+                    <td>
+                        <form method=post action=@{ApagarComentR pid}>
+                            <button type="submit" value="apagar">
+    <footer class="rodape">
+        <p>
+            Ricardo de Oliveria Júnior | João Pedro Carvalho Duarte

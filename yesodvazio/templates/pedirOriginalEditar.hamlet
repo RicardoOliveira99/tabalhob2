@@ -1,0 +1,28 @@
+<body>
+    <header>
+      <ul>
+            <li>
+                <img src="css/logo.png" alt="logo RidricArt" class="logo-menu">
+            <li>
+                <a href=@{HomeR}>
+                    Pagina Inicial
+            <li>
+                <a href="pedirNovo">
+                    Pedir Original
+            <li>
+                <a href="contato">
+                    Fale Conosco
+    <div class="aling-form">
+        $maybe mensa <- msg
+            <h3>
+                ^{mensa}
+        <form action=@{EditarOriginaisR cid} method=post>
+            <fieldset>
+                <legend hidden>Encomendar
+                <h2> Editar pedido
+                ^{widget}
+                <button type="submit" value="Editar">Enviar
+                <button value="reset">Limpar
+    <footer class="rodape">
+        <p>
+            Ricardo de Oliveria Júnior | João Pedro Carvalho Duarte

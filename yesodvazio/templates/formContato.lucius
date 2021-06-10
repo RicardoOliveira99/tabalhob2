@@ -1,0 +1,160 @@
+.aling-form {
+    margin-left: 25%;
+    text-align: left;
+    height: 32.2em;
+}
+#content {
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+h2 {
+    margin-bottom: 2%;
+    margin-left: 37%;
+    height: 40px;
+}
+
+form {
+    width: 80%;
+    justify-content: center;
+}
+
+fieldset {
+    border: none;
+}
+
+form:nth-child(2) p {
+    margin-top: 5%;
+}
+
+.content-form {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-form:first-child p {
+    padding-bottom: 8%;
+}
+
+input, .num input {
+    outline: none;
+    height: 30px;
+    font-size: 14px;
+    background-color: #E9E8E8;
+    border: none;
+    border-bottom: #c1c1c1 solid 1px;
+}
+
+.content-form:first-child input {
+    margin-bottom: 4%;
+}
+
+#dtnasc, #tel, #cel {
+    width: 150px;   
+}
+
+form, label {
+    display: flex;
+    flex-direction: column;
+}
+
+.num {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.num p {
+    padding-top: 4%;
+}
+
+.num p:nth-child(2) {
+    padding: 7px 10px 0 10px;
+}
+
+.box {
+    padding-bottom: 8%; 
+}
+
+#select {
+    margin-top: 12px;
+    width: 105px;
+    height: 25px;
+    font-size: 14px;
+    background-color: #d1d1d1;
+    border-radius: 2px;
+    border: none;
+}
+
+#select option {
+    background-color: #f4f4f4;
+}
+
+#select:hover {
+    background-color: #4A4A4A;
+    color: #fff;
+}
+
+#select option {
+    color: #000;
+}
+
+textarea {
+    margin-top: 11px;
+    background-color: #f8f8f8;
+    border: #c1c1c1 solid 1px;
+    border-radius: 2px;
+    height: 100px;
+    resize: none;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#buttons button:hover {
+    background-color: #4A4A4A;
+    color: #fff;
+}
+
+button:last-child {
+    margin-left: 20px;
+}
+
+button {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 90px;
+    height: 40px;
+    background-color: #d1d1d1;
+    border: none;
+    border-radius: 2px;
+}
+
+.link-button {
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 90px;
+    background-color: #d1d1d1;
+    border: none;
+    border-radius: 2px;
+    padding-top: 1em;	
+    }
+    
+.link-button:hover {
+    color: white;
+    background-color: #4A4A4A;
+    }
+        
+.link-button:visited {
+    color: black;	
+}	

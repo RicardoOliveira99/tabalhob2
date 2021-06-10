@@ -1,0 +1,29 @@
+<body>
+    <header>
+      <ul>
+            <li>
+                <img src="css/logo.png" alt="logo RidricArt" class="logo-menu">
+            <li>
+                <a href=@{HomeR}>
+                    Pagina Inicial
+            <li>
+                <a href="pedirNovo">
+                    Pedir Original
+            <li>
+                <a href="contato">
+                    Fale Conosco
+           
+    <div class="box">   
+        <h1 class="cinza-escuro">Faça seu pedido!
+        <p>Clique em uma opção para fazer uma encomenda.
+        <div style="margin-left: 25%; float:left">
+            <h3 class="cinza-escuro">Desenhos prontos
+            <a>
+                <img src="../static/img/prontos.png" alt="Parte não feito, já que o professor não passou a matéria toda." class="img-init" style="margin-bottom: 4em">
+        <div style="margin-right: 25%; float:right">
+            <h3 class="cinza-escuro">Encomendar novo
+            <a href="pedirNovo">
+                <img src="../static/img/paper.png" alt="Papel em branco" class="img-init">
+    <footer class="rodape">
+        <p>
+            Ricardo de Oliveria Júnior | João Pedro Carvalho Duarte

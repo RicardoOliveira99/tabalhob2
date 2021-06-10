@@ -1,0 +1,12 @@
+Contact
+    nome Text
+    email Text
+    celular Int
+    mensagem Textarea
+    deriving Show
+
+PedirNovo
+    papel Text
+    descri Textarea
+    pintura Text
+    deriving Show

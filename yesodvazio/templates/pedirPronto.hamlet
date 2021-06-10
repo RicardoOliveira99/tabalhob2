@@ -1,0 +1,147 @@
+<body>
+    <header>
+      <ul>
+           <li>
+              <img src="css/logo.png" alt="logo RidricArt" class="logo-menu">
+           <li>
+              <a href=@{HomeR}>
+                   Pagina Inicial
+    
+            <li>
+               <a href=@{PedirPronto}>
+                 Desenhos Prontos
+            
+            <li>
+               <a href=@{PedirOriginal}>
+                 Pedir novo Desenho
+            <li>
+               <a href=@{Contatosub}>
+                 Fale Conosco
+    <form>
+        <div id="content"> 
+            <div class="box-catalogo">
+                <div class="box">
+                    <img src="../static/img/desenhos/Armstrong.png" class="desenhos">
+                    <div>
+                        <input type="checkbox" id="Armstrong" name="desenho" value="Armstrong">
+                        <label for="Armstrong">
+                                Senator Armstrong
+                        
+            
+                <div>
+                    <img src="../static/img/desenhos/AOT-S4.png" class="desenhos">
+                    <div>
+                        <input type="checkbox" id="AttackOnTitan" name="desenho" value="AttackOnTitan">
+                        <label for="AttackOnTitan">
+                                Attack On Titan Season 4
+                    
+                
+                <div>
+                    <img src="../static/img/desenhos/YURIA.png" class="desenhos">
+                    <div>
+                        <input type="checkbox" id="Yuria" name="desenho" value="Yuria">
+                        <label for="Yuria">
+                                Yuria (Hokuto no Ken)
+                    
+        
+            <div class="box-catalogo">
+                <div class="box">
+                    <img src="../static/img/desenhos/Rosalina.JPG" class="desenhos">
+                    <div>
+                        <input type="checkbox" id="Rosaline" name="desenho" value="Rosaline">
+                        <label for="Rosaline">
+                                Rosaline
+                        
+            
+                <div>
+                    <img src="../static/img/desenhos/Rebroff.png" class="desenhos">
+                    <div>
+                        <input type="checkbox" id="Rebroff" name="desenho" value="Rebroff">
+                        <label for="Rebroff">
+                                Ivan Rebroff
+                    
+                
+                <div>
+                    <img src="../static/img/desenhos/Falco.JPG" class="desenhos">
+                    <div>
+                        <input type="checkbox" id="Falco" name="desenho" value="Falco">
+                        <label for="Falco">
+                                Falco (Hokuto no Ken)
+                    
+            
+            <div class="box-catalogo">
+                <div class="box">
+                    <img src="../static/img/desenhos/goku.png" class="desenhos">
+                    <div>
+                        <input type="checkbox" id="Goku-kaioken" name="desenho" value="Goku-kaioken">
+                        <label for="Goku-kaioken">
+                                Goku Blue Kaioken
+                            
+            
+                <div>
+                    <img src="../static/img/desenhos/Yuda.png" class="desenhos">
+                    <div>
+                        <input type="checkbox" id="Yuda" name="desenho" value="Yuda">
+                        <label for="Yuda">
+                                Yuda (Hokuto no Ken)
+                    
+                
+                <div>
+                    <img src="../static/img/desenhos/WalterWhite.png" class="desenhos">
+                    <div>
+                        <input type="checkbox" id="WalterWhite" name="desenho" value="WalterWhite">
+                        <label for="WalterWhite">
+                                Walter White
+                    
+            
+            <div class="box-catalogo">
+                <div class="box">
+                    <img src="../static/img/desenhos/Shuu.png" class="desenhos">
+                    <div>
+                        <input type="checkbox" id="Shuu" name="desenho" value="Shuu">
+                        <label for="Shuu">
+                                Shuu (Hokuto no Ken)
+                        
+            
+                <div>
+                    <img src="../static/img/desenhos/Kefla.png" class="desenhos">
+                    <div>
+                        <input type="checkbox" id="Kefla" name="desenho" value="Kefla">
+                        <label for="Kefla">
+                                Kefla (Dragon Ball Super)
+                        
+                
+                <div>
+                    <img src="../static/img/desenhos/madarasp.png" class="desenhos">
+                    <div>
+                        <input type="checkbox" id="Madara-jinchuuriki" name="desenho" value="Madara-jinchuuriki">
+                        <label for="Madara-jinchuuriki">
+                                Uchira Madara Jinchuuriki
+                        
+                
+            <div class="box-catalogo">
+                <div class="box">
+                    <img src="../static/img/desenhos/Jojo.png" class="desenhos">
+                    <div>
+                        <input type="checkbox" id="Jojo" name="desenho" value="Jojo">
+                        <label for="Jojo">
+                                Jojo Villains
+                            
+            
+                <div>
+                    <img src="../static/img/desenhos/souther.png" class="desenhos">
+                    <div>
+                        <input type="checkbox" id="Souther" name="desenho" value="Souther">
+                        <label for="Souther">
+                                Souther (Hokuto no Ken)
+                        
+                
+                <div>
+                    <img src="../static/img/desenhos/Mulher-maravilha.png" class="desenhos">
+                    <div>
+                        <input type="checkbox" id="Wonder-woman" name="desenho" value="Wonder-woman">
+                        <label for="Wonder-woman">
+                                Mulher-Maravilha
+                    
+    <footer class="rodape">
+        <p>Ricardo de Oliveria Júnior | João Pedro Carvalho Duarte
